@@ -417,7 +417,7 @@ Spherical tokamak with toroidal field coils
     tf_style_2 = paramak.toroidal_field_coil_princeton_d(
         r1=5,
         r2=610,
-        azimuthal_placement_angles = [120, 150, 180],
+        azimuthal_placement_angles = [0, 30, 60, 90, 120, 150, 180],
         rotation_angle = 180,
         thickness = 50,
         distance = 40
