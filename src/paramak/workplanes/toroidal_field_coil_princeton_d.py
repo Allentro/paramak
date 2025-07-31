@@ -189,7 +189,6 @@ def toroidal_field_coil_princeton_d(
     Returns:
         solid: The created toroidal field coil solid.
     """
-    print("r2", r2)
     points, inner_leg_connection_points, inner_points, outer_points = find_points(
         r1, r2, thickness, vertical_displacement
     )
