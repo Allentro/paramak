@@ -438,7 +438,7 @@ Spherical tokamak with toroidal field coils
         elongation=2.5,
         rotation_angle=180,
         triangularity=0.55,
-        extra_cut_shapes=[tf]
+        extra_cut_shapes=[tf_style_2]
     )
 
     result2.save(f"spherical_tokamak_with_princeton_tf.step")
